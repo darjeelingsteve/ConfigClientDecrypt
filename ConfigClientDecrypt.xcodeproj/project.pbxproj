@@ -10,6 +10,7 @@
 		484A8F4F28AB9BC70050394E /* ConfigClientDecrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 484A8F4E28AB9BC70050394E /* ConfigClientDecrypt.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		484A8F5628AB9C970050394E /* AESDecrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484A8F5528AB9C970050394E /* AESDecrypt.swift */; };
 		484A8F5828AB9EA00050394E /* EncryptionKeyProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484A8F5728AB9EA00050394E /* EncryptionKeyProviding.swift */; };
+		484A8F5A28ABA0120050394E /* UInt8Array+Decryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484A8F5928ABA0120050394E /* UInt8Array+Decryption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +18,7 @@
 		484A8F4E28AB9BC70050394E /* ConfigClientDecrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigClientDecrypt.h; sourceTree = "<group>"; };
 		484A8F5528AB9C970050394E /* AESDecrypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESDecrypt.swift; sourceTree = "<group>"; };
 		484A8F5728AB9EA00050394E /* EncryptionKeyProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptionKeyProviding.swift; sourceTree = "<group>"; };
+		484A8F5928ABA0120050394E /* UInt8Array+Decryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UInt8Array+Decryption.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 				484A8F4E28AB9BC70050394E /* ConfigClientDecrypt.h */,
 				484A8F5528AB9C970050394E /* AESDecrypt.swift */,
 				484A8F5728AB9EA00050394E /* EncryptionKeyProviding.swift */,
+				484A8F5928ABA0120050394E /* UInt8Array+Decryption.swift */,
 			);
 			path = ConfigClientDecrypt;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			files = (
 				484A8F5628AB9C970050394E /* AESDecrypt.swift in Sources */,
 				484A8F5828AB9EA00050394E /* EncryptionKeyProviding.swift in Sources */,
+				484A8F5A28ABA0120050394E /* UInt8Array+Decryption.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
