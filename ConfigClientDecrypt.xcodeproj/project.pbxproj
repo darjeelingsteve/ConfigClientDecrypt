@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		484A8F4F28AB9BC70050394E /* ConfigClientDecrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 484A8F4E28AB9BC70050394E /* ConfigClientDecrypt.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		484A8F5628AB9C970050394E /* AESDecrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484A8F5528AB9C970050394E /* AESDecrypt.swift */; };
+		484A8F5828AB9EA00050394E /* EncryptionKeyProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484A8F5728AB9EA00050394E /* EncryptionKeyProviding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		484A8F4B28AB9BC70050394E /* ConfigClientDecrypt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConfigClientDecrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		484A8F4E28AB9BC70050394E /* ConfigClientDecrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigClientDecrypt.h; sourceTree = "<group>"; };
 		484A8F5528AB9C970050394E /* AESDecrypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESDecrypt.swift; sourceTree = "<group>"; };
+		484A8F5728AB9EA00050394E /* EncryptionKeyProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptionKeyProviding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			children = (
 				484A8F4E28AB9BC70050394E /* ConfigClientDecrypt.h */,
 				484A8F5528AB9C970050394E /* AESDecrypt.swift */,
+				484A8F5728AB9EA00050394E /* EncryptionKeyProviding.swift */,
 			);
 			path = ConfigClientDecrypt;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				484A8F5628AB9C970050394E /* AESDecrypt.swift in Sources */,
+				484A8F5828AB9EA00050394E /* EncryptionKeyProviding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
